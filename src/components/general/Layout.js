@@ -9,14 +9,16 @@ import theme from '../../styles/theme';
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
-    <GlobalStyle />
-    <Helmet>
-      <html lang="en" />
-      {/* <link rel="icon" href={favicon} /> */}
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </Helmet>
-    <main>{children}</main>
+    <>
+      <GlobalStyle />
+      <Helmet>
+        <html lang="en" />
+        {/* <link rel="icon" href={favicon} /> */}
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      <main>{children}</main>
+    </>
   </ThemeProvider>
 );
 
