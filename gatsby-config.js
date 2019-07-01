@@ -6,4 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-}
+  siteMetadata: { title: 'A gatsby starter' },
+  plugins: ['gatsby-plugin-styled-components', 'gatsby-plugin-react-helmet'],
+};
