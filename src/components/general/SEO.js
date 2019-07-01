@@ -11,12 +11,12 @@ const SEO = ({ title, description }) => (
   </Helmet>
 );
 
-SEO.proptypes = {
+SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
 };
 
-SEO.defaultprops = {
+SEO.defaultProps = {
   title: 'Title',
   description: 'Description',
 };

@@ -45,6 +45,10 @@ const GlobalStyle = createGlobalStyle`
 	*::after {
 		box-sizing: border-box;
 	}
+
+	button {
+		cursor: pointer;
+	}
 `;
 
 export default GlobalStyle;
