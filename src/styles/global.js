@@ -46,9 +46,18 @@ const GlobalStyle = createGlobalStyle`
 		box-sizing: border-box;
 	}
 
+	/* Personal reset */
 	button {
 		cursor: pointer;
 	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	/* Global */
+	font-family: 'josefin sans', 'work sans', sans-serif;
 `;
 
 export default GlobalStyle;
