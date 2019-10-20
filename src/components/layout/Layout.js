@@ -1,8 +1,6 @@
-import '../../styles/reset.css';
-// import '../../styles/global.css';
-// import '../../styles/theme.css';
+import '../../styles/global.css';
 
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 // import favicon
